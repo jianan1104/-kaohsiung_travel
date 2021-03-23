@@ -159,6 +159,36 @@ body {
   border: 1px dashed #559AC8;
 }
 
+.content .page-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .page-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content .page-list ul li {
+  margin-right: 24px;
+  margin-bottom: 44px;
+}
+
+.content .page-list ul li a:hover {
+  color: #1411dd;
+  cursor: pointer;
+}
+
 .content h2 {
   text-align: center;
   font-size: 36px;
