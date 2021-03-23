@@ -1,0 +1,170 @@
+@import "reset";
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body {
+    font-family: ‘cwTeXYen’, sans-serif;
+}
+
+.page-wrapper{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 380px;
+    background-image: url(../assets/the-urban-landscape-1698285.png);
+    background-size: cover;
+    margin-bottom: 220px;
+    h1 {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 90px;
+        margin-bottom: 95px;
+    }
+    form {
+        margin-bottom: 80px;
+        select{
+            width: 452px;
+            height: 48px;
+            background: rgba(255,255,255,0.70);
+            border: 3px solid #FFFFFF;
+            border-radius: 3px;
+            padding: 0px 9.5px;
+        }
+    }
+    h3 {
+        font-size: 18px;
+        padding-top: 20px;
+        padding-left: 26px;
+        margin-bottom: 13px;
+    }
+    .hot-area {
+        width: 850px;
+        background: #FFFFFF;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+        border-radius: 5px;
+        margin-bottom: 50px;
+        ul {
+            display: flex;
+            padding-left: 50px;
+            padding-bottom: 18px;
+            li {
+                margin-right: 23px;
+                .all_area{
+                    background: #FFD366;
+                }
+                .linya{
+                    background: #8a82cc;
+                }
+                .sanming {
+                    background: #ffa782;
+                }
+                .xinxing{
+                    background: #f5d105;
+                }
+                .yenchong{
+                    background: #559ac8;
+                }
+            }
+        }
+        input {
+            color: white;
+            font-size: 20px;
+            padding: 11px 34px;
+            border-radius: 5px;
+            border: none;
+            &:hover{
+                border: 1px solid black;
+                cursor: pointer;
+            }
+        }
+    }
+    .line{
+        width: 900px;
+        text-align: center;
+        border: 1px dashed #559AC8;
+    }
+}
+
+.content{
+    h2 {
+        text-align: center;
+        font-size: 36px;
+        color: #8A82CC;
+        margin-bottom: 24px;
+    }
+    .card-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 36px;
+        margin-bottom: 40px;
+        box-sizing: border-box;
+        .card {
+            width: 464px;
+            //height: 273px;
+            background: #FFFFFF;
+            box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+            margin-right: 12px;
+            margin-bottom: 36px;
+            box-sizing: border-box;
+            .top-image{
+                position: relative;
+                height: 155px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                h3{
+                    position: absolute;
+                    left: 22px;
+                    bottom: 14px;
+                    font-size: 24px;
+                    color: #FFFFFF;
+                }
+                p{
+                    position: absolute;
+                    font-size: 19px;
+                    color: #FFFFFF;
+                    right: 24px;
+                    bottom: 11px;
+                }
+            }
+            .detail{
+                ul{
+                    padding-left: 23px;
+                    padding-top: 16px;
+                    li{
+                        margin-bottom: 16px;
+                        img{
+                            width: 16px;
+                            height: 20px;
+                            text-align: center;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    font-size: 14px;
+    background: #559AC8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+    h4{
+        color: white;
+        margin-bottom: 15px;
+    }
+    p{
+        color: #FFD366;
+    }
+}

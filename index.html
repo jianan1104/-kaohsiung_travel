@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高雄旅遊資訊</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="header">
+            <h1>高雄旅遊資訊</h1>
+            <form>
+                <select name="location" id="location">
+                    <option value="choice">- - 請選擇行政區</option>
+                </select>
+            </form>
+            <div class="hot-area">
+                <h3>熱門行政區</h3>
+                <ul>
+                    <li><input type="button" value="全部區域" class="all_area"></li>
+                    <li><input type="button" value="苓雅區" class="linya"></li>
+                    <li><input type="button" value="三民區" class="sanming"></li>
+                    <li><input type="button" value="新興區" class="xinxing"></li>
+                    <li><input type="button" value="鹽埕區" class="yenchong"></li>
+                </ul>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="content">
+            <h2>請選擇一個區域</h2>
+            <ul class="card-list">
+            </ul>
+        </div>
+        <footer>
+            <h4>高雄旅遊網</h4>
+            <p>資料來源：高雄市政府</p>
+        </footer>
+    </div>
+    <script src="js/all.js"></script>
+</body>
+</html>

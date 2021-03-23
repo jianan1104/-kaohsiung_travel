@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: ‘cwTeXYen’, sans-serif;
+}
+
+.page-wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 380px;
+  background-image: url(../assets/the-urban-landscape-1698285.png);
+  background-size: cover;
+  margin-bottom: 220px;
+}
+
+.header h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 90px;
+  margin-bottom: 95px;
+}
+
+.header form {
+  margin-bottom: 80px;
+}
+
+.header form select {
+  width: 452px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 3px solid #FFFFFF;
+  border-radius: 3px;
+  padding: 0px 9.5px;
+}
+
+.header h3 {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 26px;
+  margin-bottom: 13px;
+}
+
+.header .hot-area {
+  width: 850px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.header .hot-area ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 50px;
+  padding-bottom: 18px;
+}
+
+.header .hot-area ul li {
+  margin-right: 23px;
+}
+
+.header .hot-area ul li .all_area {
+  background: #FFD366;
+}
+
+.header .hot-area ul li .linya {
+  background: #8a82cc;
+}
+
+.header .hot-area ul li .sanming {
+  background: #ffa782;
+}
+
+.header .hot-area ul li .xinxing {
+  background: #f5d105;
+}
+
+.header .hot-area ul li .yenchong {
+  background: #559ac8;
+}
+
+.header .hot-area input {
+  color: white;
+  font-size: 20px;
+  padding: 11px 34px;
+  border-radius: 5px;
+  border: none;
+}
+
+.header .hot-area input:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.header .line {
+  width: 900px;
+  text-align: center;
+  border: 1px dashed #559AC8;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #8A82CC;
+  margin-bottom: 24px;
+}
+
+.content .card-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0px 36px;
+  margin-bottom: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.content .card-list .card {
+  width: 464px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 12px;
+  margin-bottom: 36px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.content .card-list .card .top-image {
+  position: relative;
+  height: 155px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.content .card-list .card .top-image h3 {
+  position: absolute;
+  left: 22px;
+  bottom: 14px;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.content .card-list .card .top-image p {
+  position: absolute;
+  font-size: 19px;
+  color: #FFFFFF;
+  right: 24px;
+  bottom: 11px;
+}
+
+.content .card-list .card .detail ul {
+  padding-left: 23px;
+  padding-top: 16px;
+}
+
+.content .card-list .card .detail ul li {
+  margin-bottom: 16px;
+}
+
+.content .card-list .card .detail ul li img {
+  width: 16px;
+  height: 20px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+footer {
+  font-size: 14px;
+  background: #559AC8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24px 0px;
+}
+
+footer h4 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+footer p {
+  color: #FFD366;
+}
+/*# sourceMappingURL=style.css.map */
